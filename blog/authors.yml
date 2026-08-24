@@ -23,3 +23,18 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+
+eduaina:
+  name: Eduaina Ighalo
+  title: Docusaurus maintainer
+  url: https://eduaina.com
+  image_url: https://github.com/eduaina.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-eduaina-articles'
+  socials:
+    x: sebasti
+    linkedin: sebasti
+    github: eduaina
+    newsletter: https://thisweek.com
