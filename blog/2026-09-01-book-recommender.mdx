@@ -27,3 +27,11 @@ Instead of scrolling endless "if you liked X, try Y" lists, I wanted an app wher
 
 The app takes user input, sends a prompt to the Gemini API, and renders the response as a clean list of book suggestions. The focus was on keeping the UI simple and the interaction fast — no clutter between the user and their next favorite book.
 
+## What I learned
+
+Working with a generative AI API in a frontend app meant thinking carefully about:
+
+- **Prompt design** — small wording changes to the prompt noticeably changed the quality of recommendations
+- **Handling latency** — showing the right loading state so the app doesn't feel stuck while waiting on a response
+- **Keeping state simple** — React hooks were more than enough here; no need for a heavier state management library
+
