@@ -18,4 +18,14 @@ hola:
   permalink: /hola
   description: Hola tag description
 
-react, ai, gemini, personal-project
+react:
+  label: React
+  permalink: /react
+  description: React tag description
+
+ai, 
+
+
+gemini,
+ 
+personal-project
