@@ -23,9 +23,13 @@ react:
   permalink: /react
   description: React tag description
 
-ai, 
+ai:
+  label: AI
+  permalink: /ai
+  description: AI tag description
+
 
 
 gemini,
- 
+
 personal-project
