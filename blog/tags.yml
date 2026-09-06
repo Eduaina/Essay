@@ -28,8 +28,10 @@ ai:
   permalink: /ai
   description: AI tag description
 
+gemini:
+  label: Gemini
+  permalink: /gemini
+  description: Gemini tag description
 
-
-gemini,
 
 personal-project
