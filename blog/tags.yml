@@ -33,5 +33,7 @@ gemini:
   permalink: /gemini
   description: Gemini tag description
 
-
-personal-project
+personal-project:
+  label: Personal-Project
+  permalink: /personal-project
+  description: personal-project tag description
