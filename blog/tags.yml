@@ -39,5 +39,8 @@ project:
   description: project tag description
 
 capstone:
-
+  label: Project
+  permalink: /project
+  description: project tag description
+  
 team-project
