@@ -36,11 +36,14 @@ gemini:
 project:
   label: Project
   permalink: /project
-  description: project tag description
+  description: Project tag description
 
 capstone:
-  label: Project
-  permalink: /project
-  description: project tag description
+  label: Capstone
+  permalink: /capstone
+  description: Capstone tag description
 
 team-project:
+  label: Team-Project
+  permalink: /team-project
+  description: Team project tag description
