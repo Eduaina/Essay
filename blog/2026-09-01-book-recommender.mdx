@@ -16,3 +16,29 @@ Ever finish a great book and have no idea what to read next? That's the exact pr
 
 
 Instead of scrolling endless "if you liked X, try Y" lists, I wanted an app where you type in a book (or a vibe, a genre, a mood) and get back a handful of thoughtful, AI-generated recommendations — instantly.
+
+## Tech stack
+
+- **React** (built with Vite for fast local dev and builds)
+- **Gemini API** for generating the actual recommendations
+- **Vercel** for deployment
+
+## How it works
+
+The app takes user input, sends a prompt to the Gemini API, and renders the response as a clean list of book suggestions. The focus was on keeping the UI simple and the interaction fast — no clutter between the user and their next favorite book.
+
+## What I learned
+
+Working with a generative AI API in a frontend app meant thinking carefully about:
+
+- **Prompt design** — small wording changes to the prompt noticeably changed the quality of recommendations
+- **Handling latency** — showing the right loading state so the app doesn't feel stuck while waiting on a response
+- **Keeping state simple** — React hooks were more than enough here; no need for a heavier state management library
+
+## Try it / see the code
+
+- Live app: [react-hooks-psi-one.vercel.app](https://react-hooks-psi-one.vercel.app/)
+- Source: [github.com/Eduaina/AI-Book-Recommender](https://github.com/Eduaina/AI-Book-Recommender)
+- 
+
+This project was a fun, focused way to get hands-on with integrating a real AI API into a React frontend — and it gave me a much better reading list.
